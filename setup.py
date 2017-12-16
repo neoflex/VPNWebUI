@@ -7,8 +7,8 @@ except ImportError:
     from distutils.core import setup
 
 requirements = [
-    'Flask', 'Flask-Assets', 'Jinja2', 'Werkzeug', 'closure',
-    'cssmin', 'webassets', 'Flask-Testing', 'requests', 'Flask-Script'
+    'Flask-Assets', 'Jinja2', 'Werkzeug', 'closure',
+    'cssmin', 'webassets', 'Flask-Testing', 'requests', 'Flask-Script', 'Flask'
 ]
 
 test_requirements = [
