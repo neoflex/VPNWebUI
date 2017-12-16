@@ -1,0 +1,14 @@
+{
+  "name": "vpn_control",
+  "version": "1.0.0",
+  "description": "express vpn web interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Valentin Grouès",
+  "dependencies": {
+    "bootstrap-material-design": "x.x.x",
+    "jquery": "3.x.x"
+  }
+}

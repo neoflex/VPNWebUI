@@ -1,0 +1,179 @@
+
+# Created by https://www.gitignore.io/api/python
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# End of https://www.gitignore.io/api/python
+
+# Created by https://www.gitignore.io/api/intellij
+
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+
+# Sensitive or high-churn files:
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# Gradle:
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# CMake
+cmake-build-debug/
+
+# Mongo Explorer plugin:
+.idea/**/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Ruby plugin and RubyMine
+/.rakeTasks
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+### Intellij Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
+
+# Sonarlint plugin
+.idea/sonarlint
+
+# End of https://www.gitignore.io/api/intellij
+.idea
+*.iml
+[?1000h[?1049h[?1h=[?2004h[1;25r[?12;25h[?12l[?25h[27m[m[38;5;244m[H[2J[?25l[25;1H"settings.py" [New File][1;1H[93m  1 [m[38;5;244m[48;5;235m                                                                            [m[38;5;244m[2;1H[1m[38;5;240m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [?1000l[?1000h[?1000l[?1000h[?1000l[?1000h[?1000l[?1000h[m[38;5;244m[24;1H[1m[38;5;230m[48;5;245m NORMAL [m[38;5;244m[38;5;245m[48;5;241m›[m[38;5;244m[38;5;254m[48;5;241m master [m[38;5;244m[38;5;241m[48;5;235m›[m[38;5;244m[38;5;240m[48;5;235m [m[38;5;244m[1m settings.py  [m[38;5;244m[38;5;240m[48;5;235m                  [m[38;5;244m[38;5;235m[48;5;235m‹[m[38;5;244m[38;5;240m[48;5;235m python [m[38;5;244m[38;5;241m[48;5;235m‹[m[38;5;244m[38;5;245m[48;5;241m‹[m[38;5;244m[38;5;230m[48;5;245m 100% :[m[38;5;244m[1m[38;5;230m[48;5;245m   0[m[38;5;244m[38;5;230m[48;5;245m:  1  [m[38;5;244m[38;5;166m[48;5;245m‹[m[38;5;244m[24;21H[1m1:settings.py  [1;5H[?12l[?25h[?25l[m[38;5;244m[25;1H1:settings.py[25;15H[K[25;1Hneocomplete does not work with this version of Vim.It requires Vim 7.3.885 or later with Lua support ("+lua").1:settings.py [25;15H[K[1;5H[?12l[?25h[?25l[25;70Hc[1;5H[?12l[?25h[?25l[25;70H [1;5H[25;70Hc[1;5H[1;5H[?12l[?25h[?25l[25;70H [1;5H[1;5H[?12l[?25h[?25l[25;1HType  :quit<Enter>  to exit Vim[1;5H[?12l[?25h[?25l[1;5H[?12l[?25h[?25l[25;70H:[1;5H[25;1H[K[25;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[?1000l[25;1H[K[25;1H[?2004l[?1l>[?12l[?25h[?1049lsettings.py
