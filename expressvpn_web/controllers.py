@@ -10,9 +10,9 @@ __author__ = 'Valentin Grouès'
 
 @app.route('/vpn')
 def servers_list():
-    expressvpn_cmd_status = app.config.get('EXPRESSVPNCMD_STATUS', 'expressvpn status')
-    status = subprocess.check_output(expressvpn_cmd_status, shell=True).decode('utf-8')
-    return render_template('servers.html', servers=servers, status=status)
+    #expressvpn_cmd_status = app.config.get('EXPRESSVPNCMD_STATUS', 'expressvpn status')
+    #status = subprocess.check_output(expressvpn_cmd_status, shell=True).decode('utf-8')
+    return render_template('servers.html', servers=servers, status='connected')
 
 
 @app.route('/vpn/connect/<code>')
